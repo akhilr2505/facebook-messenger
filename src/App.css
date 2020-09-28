@@ -1,5 +1,36 @@
 .App {
   text-align: center;
+
+  background-image: linear-gradient(#07031a, #00909e);
+}
+
+.app_form {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+
+  background-image: linear-gradient(#f4ea8e, #e8ead3);
+  width: 70vw;
+  margin: 20px;
+  border-radius: 35px;
+}
+
+.app__formControl {
+  display: flex !important;
+  align-items: center;
+  flex-direction: row !important;
+}
+.Icon_button {
+  flex: 0;
+}
+.Input {
+  flex: 1;
+  color: #0b0d0f;
 }
 
 .App-logo {
@@ -26,6 +57,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.AkhilColor {
+  color: white;
 }
 
 @keyframes App-logo-spin {
